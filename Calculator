@@ -1,0 +1,42 @@
+package week1.day2;
+
+public class Calculator {
+
+
+
+		public int Add(int sum1,int sum2,int sum3)
+		{
+			
+			return sum1+sum2+sum3;
+		}
+		
+		public int subract(int sub1, int sub2)
+		{
+			return sub1-sub2;
+		}
+		public double multiply(double mul1,double mul2)
+		{
+			return mul1*mul2;
+		}
+		public float divide(float div1,float div2)
+		{
+			return div1/div2;
+		}
+		
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+		
+			Calculator calc=new  Calculator();
+		int sumTotalValue=calc.Add(1,2,3);
+		System.out.println("The Total Sum Value is:"+sumTotalValue);
+		int subtractValueResult=calc.subract(10, 5);
+		System.out.println("The subtraction value Result:"+subtractValueResult);
+		double MutliplytValueResult=calc.multiply(11d, 5d);
+		System.out.println("The subtraction value Result:"+MutliplytValueResult);
+		float divideValueResult=calc.divide(2240.0f,2.0f);
+		System.out.println("The division value Result:"+divideValueResult);
+		
+		
+	}
+
+}
