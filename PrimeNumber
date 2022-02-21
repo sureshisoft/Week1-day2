@@ -1,0 +1,30 @@
+package week1.day2;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num=7;
+		boolean b=false;
+		for(int i=2;i<num/2;i++)
+		{
+			if(num%i==0)
+             {
+            	b=true;
+            	break;
+             }
+		}
+             if(!b)
+             {
+            	 System.out.println("Given number is  a Prime number");
+             }
+             else
+             {
+            	 System.out.println("Given number is not a Prime number");
+             }
+             
+		}
+	}
+
+
