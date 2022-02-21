@@ -1,0 +1,17 @@
+package week1.day2;
+
+public class Positivenumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=0;
+		int a=-40;
+		if(a<n)
+		{
+			a=a*-1;
+			System.out.println("The Postive Number is:"+ a);
+		}
+
+	}
+
+}
