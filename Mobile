@@ -1,0 +1,23 @@
+package week1.day2;
+
+public class Mobile {
+	
+	public void makeCall()
+	{
+		System.out.println("user is able to make call");
+	}
+
+	public void sendMesage()
+	{
+		System.out.println("user is able to send message sucessfully");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Mobile mob= new Mobile();
+		mob.makeCall();
+		mob.sendMesage();
+
+	}
+
+}
